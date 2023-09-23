@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "chat-pdfload-embedding-gpt4-streamlit"
+version = "0.1.0"
+description = ""
+authors = ["Lily Perera <lilycapetillo86@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pypdf = "^3.16.1"
+openai = "^0.28.0"
+tenacity = "^8.2.3"
+termcolor = "^2.3.0"
+transformers = "^4.33.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
