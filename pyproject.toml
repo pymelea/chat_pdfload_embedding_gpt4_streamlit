@@ -12,6 +12,15 @@ openai = "^0.28.0"
 tenacity = "^8.2.3"
 termcolor = "^2.3.0"
 transformers = "^4.33.2"
+streamlit = "^1.27.0"
+langchain = "^0.0.300"
+python-dotenv = "^1.0.0"
+faiss-cpu = "^1.7.4"
+huggingface-hub = "^0.17.2"
+instructorembedding = "^1.0.1"
+sentence-transformers = "^2.2.2"
+tiktoken = "^0.5.1"
+update = "^0.0.1"
 
 
 [build-system]
