@@ -79,7 +79,7 @@ def main():
 
     load_dotenv()
     st.set_page_config(
-        page_title='OpenAI Chatbot of CognitCore',
+        page_title='OpenAI Chatbot of CogniCore',
         page_icon='🤖',
     )
 
@@ -90,10 +90,10 @@ def main():
     if 'chat_history' not in st.session_state:
         st.session_state.chat_history = None
 
-    st.header('OpenAI Chatbot of CognitCore :🤖')
+    st.header('OpenAI Chatbot of CogniCore :🤖')
 
     col1 = st.columns(spec=1, gap='small')
-    st.header('CognitCore')
+    st.header('CogniCore')
     st.text('Resume about what the people going on find about the Cognitcore')
 
     prompt = st.text_input('Ask a question: ')
