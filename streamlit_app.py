@@ -58,8 +58,9 @@ def get_conversation_chain(vectorstore):
     return conversation_chain
 
 
-def handle_userinput(prompt):
-    response = st.session_state.conversation({'question': prompt})
+
+def handle_userinput(user_question):
+    response = st.session_state.conversation({'question': user_question})
     st.session_state.chat_history = response['chat_history']
 
     for i, message in enumerate(st.session_state.chat_history):
@@ -96,9 +97,9 @@ def main():
     st.header('CogniCore')
     st.text('Resume about what the people going on find about the Cognitcore')
 
-    prompt = st.text_input('Ask a question: ')
-    if prompt:
-        handle_userinput(prompt)
+    user_question = st.text_input('Ask a question: ')
+    if user_question:
+        handle_userinput(user_question)
 
     with st.sidebar:
         st.subheader('Ask a question: ')
