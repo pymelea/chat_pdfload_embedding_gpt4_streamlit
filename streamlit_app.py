@@ -28,8 +28,8 @@ def get_text_pdf(uploaded_files):
 def get_chunks_text(doc_text):
     text_splitter = CharacterTextSplitter(
         separator='\n',
-        chunk_size=4000,
-        chunk_overlap=2000,
+        chunk_size=2000,
+        chunk_overlap=200,
         length_function=len,
     )
     chunks = text_splitter.split_text(doc_text)
