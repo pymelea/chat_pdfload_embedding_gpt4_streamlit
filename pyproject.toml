@@ -7,7 +7,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-pypdf = "^3.16.1"
+pypdf = "^3.17.0"
 openai = "^0.28.0"
 tenacity = "^8.2.3"
 termcolor = "^2.3.0"
