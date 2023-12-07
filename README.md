@@ -61,10 +61,18 @@ streamlit run streamlit_app.py
 
 - Regarding that inserted documentation, you can ask all the questions you need to the chat, until a summary is generated; specific data only exists in those documents.
 
+## 📫  Error of the application running in the streamlit chat_pdfload_embedding_gpt4_streamlit
+
+The applicative on the streamlit server but during use it shows this error:
+
+<img src="img/error__not_have_openai_key.png" alt="Error because dont have OPENAI key">
+
+1. You can download the project.
+2. But you must create an .env file with the ChatGPT Key
+3. By doing this the project should run perfectly.
 
 
 
-I invite you to try it and if you want to contribute, please do not hesitate to leave an issue with your suggestions and contact me privately.
 
 # 📝 Licença
 
